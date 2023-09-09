@@ -1,14 +1,16 @@
 import React from 'react'
 import profileImg from '../assests/Images/profileImg.jpeg';
 import { TypeAnimation } from 'react-type-animation';
+import bgimage from '../assests/Images/bgHome.png'
+
 import { AiFillLinkedin,AiFillGithub,AiFillTwitterCircle,AiFillInstagram,AiOutlineArrowDown } from 'react-icons/ai';
 function Home() {
   return (
     
     <div className='Hmain'>
         
-        <div className='flex justify-center mt-32'>
-            <div className='profileImage border-8 border-teal-300'>
+        <div className='flex justify-center'>
+            <div className='profileImage border-8 border-teal-300 mt-32'>
                 <img  src={profileImg} alt='profile-Image'  className='self-center'/>
                
             </div>
@@ -38,7 +40,7 @@ function Home() {
                 
   </div>
   <div className='Habout text-white flex justify-center'>
-    <div className='w-1/2 mt-5'><p className='text-cener'>I'm a versatile full-stack developer with a strong passion for crafting robust and user-centric web and mobile solutions. With expertise in front-end and back-end technologies, as well as React Native, I thrive on turning ideas into elegant, functional, and scalable digital experiences. Let's collaborate to bring your vision to life!</p>
+    <div className='w-1/2 mt-5'><p className='text-cener text-zinc-400'>I'm a versatile full-stack developer with a strong passion for crafting robust and user-centric web and mobile solutions. With expertise in front-end and back-end technologies, as well as React Native, I thrive on turning ideas into elegant, functional, and scalable digital experiences. Let's collaborate to bring your vision to life!</p>
     </div>
   </div>
   <div className='Links flex flex-row justify-center mt-20 text-4xl text-white gap-10'>
@@ -48,7 +50,7 @@ function Home() {
     <div className='LinkIcons border border-slate-600  p-3 rounded-xl'><AiFillInstagram /></div>
   </div>
 
-  <div className='ScrollDown flex justify-center text-slate-600 mt-56'>
+  <div className='ScrollDown flex justify-center text-slate-600 mt-40'>
         <span className='flex text-xl'><AiOutlineArrowDown className='border border-slate-600 rounded-full mr-2' /></span> <span>Scroll</span>
   </div>
   </div>

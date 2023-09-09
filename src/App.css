@@ -1,3 +1,12 @@
+body{
+  margin: 0px;
+  background-image: url('./assests/Images/bgAbout.png');
+}
+.Hmain{
+ background-image: url('./assests//Images/bgHome.png');
+ height: 100vh;
+  max-height: fit-content;
+}
 .profileImage {
   width: 150px;
   height: 150px;
@@ -6,6 +15,9 @@
   border-radius: 50%;
   
 }
+/* .SkillCard{
+  background-color: red;
+} */
 .Habout{
 
   text-align: center;
