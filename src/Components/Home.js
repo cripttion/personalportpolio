@@ -7,10 +7,10 @@ import { AiFillLinkedin,AiFillGithub,AiFillTwitterCircle,AiFillInstagram,AiOutli
 function Home() {
   return (
     
-    <div className='Hmain'>
+    <div className='Hmain' id='home'>
         
         <div className='flex justify-center'>
-            <div className='profileImage border-8 border-teal-300 mt-32'>
+            <div className='profileImage border-8 border-teal-300 mt-52'>
                 <img  src={profileImg} alt='profile-Image'  className='self-center'/>
                
             </div>

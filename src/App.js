@@ -9,16 +9,18 @@ import Resume from './Components/Resume';
 import Home from './Components/Home';
 import bgimage from './assests/Images/bgHome.png'
 import bgAbout from './assests/Images/bgAbout.png'
-import Contact from './Components/Contact';
 import Skills from './Components/Skills';
+import Contact from './Components/Contact';
 function App() {
   return (
     <>
     <NavBar />
-      <Home />
+      <Home  />
       <About />
-      <Skills />
-
+      <Skills  />
+      <Resume />
+      <Works />
+      <Contact  />
     </>
   );
 }
