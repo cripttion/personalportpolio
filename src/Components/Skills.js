@@ -5,7 +5,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 
 function Skills() {
   return (
-    <div className='mt-32' id='skill'>
+    <div className='mt-32 mx-2 md:mx-96' id='skill'>
         <Title title="SKILLS"
                titleBack="MY SKILLS" />
         <div className='skill flex flex-col md:flex-row sm:flex-col xl:flex-row gap-20  justify-center mt-20'>

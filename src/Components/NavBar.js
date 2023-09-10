@@ -16,7 +16,7 @@ function NavBar() {
     <Link to="#home" className="text-sm font-semibold leading-6 text-gray-900 text-white">HOME</Link>
 
       <Link to="#about" className="text-sm font-semibold leading-6 text-gray-900 text-white">ABOUT</Link>
-      <Link to="#skill" className="text-sm font-semibold leading-6 text-gray-900 text-white">Skills</Link>
+      <Link to="#skill" className="text-sm font-semibold leading-6 text-gray-900 text-white">SKILLS</Link>
       <Link to="#resume" className="text-sm font-semibold leading-6 text-gray-900 text-white">RESUME</Link>
       <Link to="#work" className="text-sm font-semibold leading-6 text-gray-900 text-white">WORKS</Link>
 

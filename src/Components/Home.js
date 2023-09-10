@@ -1,7 +1,6 @@
 import React from 'react'
 import profileImg from '../assests/Images/profileImg.jpeg';
 import { TypeAnimation } from 'react-type-animation';
-import bgimage from '../assests/Images/bgHome.png'
 
 import { AiFillLinkedin,AiFillGithub,AiFillTwitterCircle,AiFillInstagram,AiOutlineArrowDown } from 'react-icons/ai';
 function Home() {
@@ -11,7 +10,7 @@ function Home() {
         
         <div className='flex justify-center'>
             <div className='profileImage border-8 border-teal-300 mt-52'>
-                <img  src={profileImg} alt='profile-Image'  className='self-center'/>
+                <img  src={profileImg} alt='profile'  className='self-center'/>
                
             </div>
             

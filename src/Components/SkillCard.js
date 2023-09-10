@@ -3,7 +3,6 @@ import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 function SkillCard(props) {
-    const percentage = 60;
   return (
    
     <div>

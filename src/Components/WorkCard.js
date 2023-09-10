@@ -1,9 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+
 function WorkCard(props) {
     const openInNewTab = (url) => {
         window.open(url, "_blank", "noreferrer");
-    const Baseurl='https://stackoverflow.com/questions/75728532/uncaught-typeerror-cannot-destructure-property-basename-of-react2-usecontext';
     }
     const txt="<code />"
   return (
